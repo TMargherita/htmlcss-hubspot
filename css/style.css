@@ -9,13 +9,44 @@
   margin: auto;
 }
 
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
 header {
-  height: 500px;
+  height: 800px;
   background-image: url("../img/jumbotron.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right bottom;
 }
+/*header menu sx*/
 .header-top {
+  height: 80px;
+  margin-top: 30px;
+}
 
+.header-nav-sx {
+  float: left;
+  width: 50%;
+}
+
+.menu-inline-sx li {
+  display: inline-block;
+  color: #33475b;
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.menu-inline-sx li:first-child {
+  border-right: 1px solid #33475b;
+  padding: 0 30px;
+}
+
+.menu-inline-sx li .contatti {
+  border: none;
+  margin-left: 30px;
 }
