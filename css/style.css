@@ -16,16 +16,16 @@ body {
 header {
   height: 800px;
   background-image: url("../img/jumbotron.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: right bottom;
 }
-/*header menu sx*/
+
 .header-top {
   height: 80px;
   margin-top: 30px;
 }
-
+/*navigazione-top-sx*/
 .header-nav-sx {
   float: left;
   width: 50%;
@@ -33,7 +33,7 @@ header {
 
 .menu-inline-sx li {
   display: inline-block;
-  color: #33475b;
+  color: #374d62;
   list-style: none;
   text-decoration: none;
   font-size: 14px;
@@ -42,11 +42,53 @@ header {
 }
 
 .menu-inline-sx li:first-child {
-  border-right: 1px solid #33475b;
+  border-right: 1px solid #374d62;
   padding: 0 30px;
 }
 
 .menu-inline-sx li .contatti {
   border: none;
   margin-left: 30px;
+}
+
+/*navigazione-top-dx*/
+.header-nav-dx {
+  float: right;
+  width: 30%;
+}
+
+.menu-inline-dx li {
+  display: inline-block;
+  color: #ff7a59;
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: right;
+  margin: 0 15px;
+}
+
+.menu-inline-dx li:first-child {
+  color: #8da6bf;
+}
+
+.btn-bianco {
+  border: 0.5px solid #ff7a59;
+  border-radius: 5px;
+  background-color: white;
+  color: #ff7a59;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.btn-orange {
+  border: none;
+  border-radius: 5px;
+  background-color: #ff7a59;
+  color: #fff;
+  font-weight: 300;
+  padding: 10px;
+}
+
+hr {
+  color: #ff7a59;
 }
