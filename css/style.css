@@ -9,13 +9,7 @@ header {
   width: 100vw;
   height: 900px;
   background-color: #F4F9FD;
-  background-image: url("../img/jumbotron.png");
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-size: 80%;
 }
-
 
 body {
   font-family: 'Nunito', sans-serif;
@@ -33,6 +27,15 @@ body {
   background-color: #F4F9FD;
 }
 
+.terza-riga {
+  width: 100%;
+  background-image: url("../img/jumbotron.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+}
+
 .header-bottom {
   position: absolute;
   bottom: 0;
@@ -47,6 +50,7 @@ body {
 .menu-sopra {
   width: 80%;
   margin: auto;
+
 }
 
 .sottomenu {
@@ -152,6 +156,34 @@ body {
   text-align: right;
   margin: 0 15px;
   }
+
+.banner {
+  position: relative;
+  width: 35%;
+  height: 400px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translateY(40%);
+}
+
+.banner-text h1 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 55px;
+  color: #33475B;
+  margin-bottom: 10px;
+}
+
+.banner-text p {
+  text-align: left;
+  font-weight: 400;
+  color: #33475B;
+  font-size: 20px;
+}
 
 .container-centrale {
   width: 70%;
