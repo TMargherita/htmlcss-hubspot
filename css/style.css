@@ -121,3 +121,40 @@ clearfix::after {
   float: left;
   width: 20%;
 }
+
+.container-centrale {
+  width: 70%;
+  background-color: gray;
+  height: 500px;
+  margin: auto;
+}
+
+.cubi {
+  background-color: pink;
+  background-position: center;
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  margin: 10px 0;
+}
+
+.riga-centrale {
+  width: 100%;
+  background-color: yellow;
+  height: 400px;
+  margin: 10px 0;
+}
+
+.immagine {
+  width: 30%;
+  height: 400px;
+  background-color: green;
+  margin: 10px 0;
+}
+
+.colonne li {
+  display: inline-block;
+  width: 33%;
+  height: 600px;
+  background-color: blue;
+}
