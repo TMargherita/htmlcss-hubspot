@@ -6,7 +6,7 @@
 
 header {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 900px;
   background-color: #F4F9FD;
   background-image: url("../img/jumbotron.png");
@@ -52,8 +52,9 @@ body {
 .sottomenu {
   width: 80%;
   margin: auto;
-  padding-top: 15px;
+  padding-top: 15px
 }
+
 
 .clearfix::after {
   content:"";
@@ -131,14 +132,15 @@ body {
 
 .logo {
   float:left;
-  width: 30%;
-  margin: auto;
+  width: 40%;
+  margin-left: 2%;
 }
 
 .menu-dx-grande {
-  float: right;
-  width: 70%;
+  float: left;
+  width: 58%;
   margin: auto;
+  text-align: center;
   }
 
 .sottomenu-dx li {
@@ -186,4 +188,9 @@ body {
   width: 33%;
   height: 600px;
   background-color: blue;
+}
+.menu-sopra h1 {
+  width: 30%;
+  text-align: left;
+  font-weight: 600;
 }
