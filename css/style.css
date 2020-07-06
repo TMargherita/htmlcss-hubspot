@@ -50,7 +50,7 @@ body {
   margin: auto;
 }
 
-clearfix::after {
+.clearfix::after {
   content:"";
   display: table;
   clear: both;
@@ -58,7 +58,7 @@ clearfix::after {
 
 
 .header-top {
-  line-height: 40px;
+  line-height: 30px;
   padding: 40px 0;
 }
 
@@ -129,8 +129,7 @@ clearfix::after {
 /*header-menu-logo*/
 .logo {
   float: left;
-  width: 70%;
-
+  width: 30%;
 }
 
 .container-centrale {
