@@ -8,8 +8,9 @@ header {
   position: relative;
   width: 100vw;
   height: 900px;
+  background-color: #F4F9FD;
   background-image: url("../img/jumbotron.png");
-  background-position: bottom;
+  background-position: right bottom;
   background-repeat: no-repeat;
   background-size: contain;
   background-size: 80%;
@@ -18,18 +19,18 @@ header {
 
 body {
   font-family: 'Nunito', sans-serif;
+  font-size: 14px;
 }
 
 .header-bottom {
   position: absolute;
   bottom: 0;
-  left: 0;
-  background-color: #66ffe0;
-  height: 100px;
+  right: 0;
+  background-color: #AFEBE4;
+  height: 90px;
   width: 100vw;
-  border: 3px solid #374d62;
-  border-right: none;
-  border-right: none;
+  border-top: 3px solid #374d62;
+  border-bottom: 3px solid #374d62
 }
 
 .container {
@@ -38,7 +39,7 @@ body {
   padding: 0 auto;
 }
 
-.header-top::after {
+clearfix::after {
   content:"";
   display: table;
   clear: both;
@@ -46,7 +47,7 @@ body {
 
 
 .header-top {
-  height: 80px;
+  height: 160px;
   line-height: 40px;
   padding: 40px 0;
 }
@@ -118,6 +119,5 @@ body {
 /*header-menu-logo*/
 .header-logo {
   float: left;
-  width: 40%;
-  padding: 0 auto;
+  width: 20%;
 }
