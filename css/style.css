@@ -6,7 +6,7 @@
 
 header {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 900px;
   background-color: #F4F9FD;
   background-image: url("../img/jumbotron.png");
@@ -22,11 +22,17 @@ body {
   font-size: 14px;
 }
 
-.container-grande {
+.prima-riga {
   width: 100%;
-  border-bottom: 3px solid #374d62;
-  background-color: #F4F9FD
+  border-bottom: 1px solid #374d62;
+  background-color: #F4F9FD;
 }
+
+.seconda-riga {
+  width: 100%;
+  background-color: #F4F9FD;
+}
+
 .header-bottom {
   position: absolute;
   bottom: 0;
@@ -34,15 +40,20 @@ body {
   background-color: #AFEBE4;
   height: 90px;
   width: 100vw;
-  border-top: 3px solid #374d62;
-  border-bottom: 3px solid #374d62
+  border-top: 3px solid #33475B;
+  border-bottom: 3px solid #33475B;
 }
 
-.container {
+.menu-sopra {
   width: 80%;
   margin: auto;
 }
 
+.sottomenu {
+  width: 80%;
+  margin: auto;
+  padding-top: 15px;
+}
 
 .clearfix::after {
   content:"";
@@ -50,30 +61,26 @@ body {
   clear: both;
 }
 
-
-.header-top {
-  line-height: 30px;
-  margin-bottom: 10px;
-}
-
 /*navigazione-top-sx*/
-.header-nav-sx {
+.menu-lingua{
   float: left;
   width: 70%;
+  margin: auto;
+  margin-bottom: 10px
 }
 
 .menu-inline-sx li {
   display: inline-block;
-  color: #374d62;
+  color: #33475B;
   list-style: none;
   text-decoration: none;
   font-size: 14px;
   text-align: left;
-  margin-left: 30px;
+  line-height: 30px;
 }
 
 .menu-inline-sx li:first-child {
-  border-right: 1px solid #374d62;
+  border-right: 1px solid #33475B;
   padding: 0 30px;
 }
 
@@ -83,7 +90,7 @@ body {
 }
 
 /*navigazione-top-dx*/
-.header-nav-dx {
+.menu-login {
   float: left;
   width: 30%;
 }
@@ -122,33 +129,26 @@ body {
 
 /*header-menu-logo*/
 
-.container-logo {
-  width: 100%;
-  background-color: #F4F9FD;
+.logo {
+  float:left;
+  width: 30%;
+  margin: auto;
 }
 
-.box-logo {
-  float: left;
-  width: 40%;
-  margin: 10px 0;
-}
-
-.menu-bottom {
-  width: 80%;
-  background-color: #F4F9FD;
-}
-  .menu-dx {
-    float: right;
-    width: 60%;
+.menu-dx-grande {
+  float: right;
+  width: 70%;
+  margin: auto;
   }
 
-  .menu-dx li {
-    display: inline-block;
-    list-style: none;
-    color: #374d62;
-    text-decoration: none;
-    font-size: 14px;
-    text-align: right;
+.sottomenu-dx li {
+  display: inline-block;
+  color: #33475B;
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: right;
+  margin: 0 15px;
   }
 
 .container-centrale {
