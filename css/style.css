@@ -325,16 +325,14 @@ hr {
 }
 
 .container-colonne {
-  width: 100vw;
+  width: 80%;
   margin: auto;
 }
 
 .colonna1, .colonna2, .colonna3 {
   float: left;
   width: calc(33.33% - 100px/3);
-  height: 300px;
-  background-color: pink;
-  margin: 100px 10px;
+  margin: 100px 0;
 }
 
 .image-box {
@@ -397,4 +395,8 @@ hr {
 .colonna2 .parte-sopra li img {
   width: 60%;
   margin-top: 10px;
+}
+
+.colonna3 .parte-sopra li img {
+  width: 45%;
 }
