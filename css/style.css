@@ -6,9 +6,13 @@
 
 header {
   position: relative;
-  width: 100vw;
-  height: 900px;
-  background-color: #F4F9FD;
+  width: 100%;
+  height: 1000px;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 90%;
+  background-position: bottom;
 }
 
 body {
@@ -19,38 +23,16 @@ body {
 .prima-riga {
   width: 100%;
   border-bottom: 1px solid #374d62;
-  background-color: #F4F9FD;
 }
 
-.seconda-riga {
+.seconda-riga, .terza-riga, {
   width: 100%;
-  background-color: #F4F9FD;
-}
-
-.terza-riga {
-  width: 100%;
-  background-image: url("../img/jumbotron.png");
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-size: 100%;
-}
-
-.header-bottom {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background-color: #AFEBE4;
-  height: 90px;
-  width: 100vw;
-  border-top: 3px solid #33475B;
-  border-bottom: 3px solid #33475B;
+  margin: auto;
 }
 
 .menu-sopra {
   width: 80%;
   margin: auto;
-
 }
 
 .sottomenu {
@@ -89,7 +71,7 @@ body {
   padding: 0 30px;
 }
 
-.menu-inline-sx li .contatti {
+.menu-inline-sx li:last-child {
   border: none;
   margin-left: 30px;
 }
@@ -160,14 +142,13 @@ body {
 .banner {
   position: relative;
   width: 35%;
-  height: 400px;
 }
 
 .banner-text {
   position: absolute;
-  top: 40%;
-  left: 30%;
-  transform: translateY(40%);
+  top: 50;
+  left: 30;
+  transform: translate(30%, 50%);
 }
 
 .banner-text h1 {
@@ -183,46 +164,57 @@ body {
   font-weight: 400;
   color: #33475B;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
-.container-centrale {
+.banner-text button {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sottotesto {
+  font-weight: 300;
+  font-size: 16px;
+  color: #33475B;
+}
+
+.corpo {
   width: 70%;
-  background-color: gray;
-  height: 500px;
+  margin: auto;
+}
+
+
+.riga-centrale {
+  width: 70%;
   margin: auto;
 }
 
 .cubi {
-  background-color: pink;
-  background-position: center;
-  width: 70%;
-  height: 500px;
-  margin: auto;
-  margin: 10px 0;
+  width: 35%;
+  padding: 30px 0;
+  margin-top: 30px;
+  margin-left: 35%;
 }
 
-.riga-centrale {
-  width: 100%;
-  background-color: yellow;
-  height: 400px;
-  margin: 10px 0;
+.riga-centrale ul  {
+  text-align: center;
+  color: #33475B;
+  list-style: none;
+  display: block;
+  padding: 20px 0;
 }
 
-.immagine {
-  width: 30%;
-  height: 400px;
-  background-color: green;
-  margin: 10px 0;
-}
-
-.colonne li {
-  display: inline-block;
-  width: 33%;
-  height: 600px;
-  background-color: blue;
-}
-.menu-sopra h1 {
-  width: 30%;
-  text-align: left;
+.testo-centrato li:first-child {
   font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.testo-centrato li:last-child {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
