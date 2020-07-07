@@ -6,13 +6,24 @@
 
 header {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 1000px;
+  margin: auto;
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 90%;
+  background-size: contain;
   background-position: bottom;
+}
+
+.header-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 120px;
+  border-top: 2px solid #374d62;
+  border-bottom: 2px solid #374d62;
+  background-color: #AFEBE4;
 }
 
 body {
@@ -22,9 +33,15 @@ body {
 .prima-riga {
   width: 100%;
   border-bottom: 1px solid #374d62;
+  margin: auto;
 }
 
-.seconda-riga, .terza-riga, {
+.seconda-riga {
+  width: 100%;
+  margin: auto;
+}
+
+.terza-riga {
   width: 100%;
   margin: auto;
 }
@@ -239,16 +256,20 @@ body {
   list-style: none;
   text-decoration: none;
   text-align: center;
-  margin-top: 10%;
-  padding: 30px;
+  margin-top: 30px;
+  padding: 40px;
 }
 
-.immagine li .btn-orange{
-  font-weight: 300;
+.btn-Learn {
+  border: none;
+  border-radius: 5px;
+  background-color:#FE775A;
+  color: #fff;
+  font-weight: 400;
   font-size: 20px;
-  padding: 16px;
+  padding: 25px;
   width: 80%;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
 .testo-affiancato {
@@ -257,6 +278,7 @@ body {
   list-style: none;
   text-decoration: none;
   padding: 20px;
+  margin-left: 30px;
 }
 
 .testo-affiancato h2 {
@@ -283,8 +305,8 @@ body {
 hr {
   display: inline-block;
   align: right;
-  width: 60%;
-  margin-left: 10%;
+  width: 50%;
+  margin-left: 20px;
 }
 
 .lista-inline li {
@@ -298,7 +320,76 @@ hr {
   margin-top: 20px;
 }
 
-
 .lista-inline .fa-check-circle {
   color:#FE775A;
+}
+
+.container-colonne {
+  width: 90%;
+  margin: auto;
+}
+
+.colonna1, .colonna2, .colonna3 {
+  float: left;
+  width: calc(33.33% - 100px/3);
+  height: 300px;
+  background-color: pink;
+  margin: 100px 10px;
+}
+
+.image-box {
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.parte-sopra, .parte-sotto {
+  width: 60%;
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.parte-sopra li, .parte-sotto li{
+  list-style: none;
+  text-decoration: none;
+  color: #33475B;
+}
+
+.parte-sotto li:first-child {
+  padding-top: 20px;
+}
+
+.title-box {
+  font-weight: 700;
+  font-size: 36px;
+  padding: 30px 0;
+}
+
+.testo-box {
+  font-weight: 400;
+  font-size: 26px;
+  margin-top: 20px;
+  padding-bottom: 90px;
+  line-height: 48px;
+  border-bottom: 2px solid #33475B;
+}
+
+.lista-sotto li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.lista-sotto .fa-check-circle {
+  color:#FE775A
+}
+
+.parte-sotto li .btn-Learn{
+  width: 60%;
+  margin-top: 60px;
 }
