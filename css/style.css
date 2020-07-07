@@ -17,7 +17,6 @@ header {
 
 body {
   font-family: 'Nunito', sans-serif;
-  font-size: 14px;
 }
 
 .prima-riga {
@@ -97,10 +96,10 @@ body {
 }
 
 .btn-bianco {
-  border: 0.5px solid #ff7a59;
+  border: 0.5px solid #FE775A;
   border-radius: 5px;
   background-color: white;
-  color: #ff7a59;
+  color: #FE775A;
   font-weight: 300;
   padding: 10px;
 }
@@ -108,7 +107,7 @@ body {
 .btn-orange {
   border: none;
   border-radius: 5px;
-  background-color: #ff7a59;
+  background-color:#FE775A;
   color: #fff;
   font-weight: 300;
   padding: 10px;
@@ -186,16 +185,15 @@ body {
   margin: auto;
 }
 
-
 .riga-centrale {
   width: 70%;
   margin: auto;
+  padding-bottom: 50px;
 }
 
 .cubi {
   width: 35%;
-  padding: 30px 0;
-  margin-top: 30px;
+  margin-top: 10%;
   margin-left: 35%;
 }
 
@@ -209,12 +207,98 @@ body {
 
 .testo-centrato li:first-child {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 45px;
   margin-bottom: 20px;
 }
 
 .testo-centrato li:last-child {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 24px;
   margin-bottom: 20px;
+}
+
+.due-colonne {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.prima-colonna {
+  float: left;
+  margin:auto;
+  width: 25%;
+}
+.seconda-colonna {
+  float:left;
+  width: 75%;
+  margin: auto;
+}
+
+.immagine {
+  display: block;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10%;
+  padding: 30px;
+}
+
+.immagine li .btn-orange{
+  font-weight: 300;
+  font-size: 20px;
+  padding: 16px;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.testo-affiancato {
+  display: block;
+  color: #33475B;
+  list-style: none;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.testo-affiancato h2 {
+  font-weight: 700;
+  font-size: 35px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.testo-affiancato p {
+  font-weight: 400;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.testo-affiancato .feature {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 28px;
+  color: #33475B;
+  padding: 20px;
+}
+
+hr {
+  display: inline-block;
+  align: right;
+  width: 60%;
+  margin-left: 10%;
+}
+
+.lista-inline li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.lista-inline .fa-check-circle {
+  color:#FE775A;
 }
