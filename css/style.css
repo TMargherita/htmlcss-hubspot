@@ -325,7 +325,7 @@ hr {
 }
 
 .container-colonne {
-  width: 90%;
+  width: 100vw;
   margin: auto;
 }
 
@@ -392,4 +392,9 @@ hr {
 .parte-sotto li .btn-Learn{
   width: 60%;
   margin-top: 60px;
+}
+
+.colonna2 .parte-sopra li img {
+  width: 60%;
+  margin-top: 10px;
 }
