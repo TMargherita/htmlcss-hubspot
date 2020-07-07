@@ -428,6 +428,7 @@ hr {
   text-align: center;
   padding: 0 6.5%;
   margin-bottom: 2%;
+  padding: 0 15%;
 }
 
 .mini-box {
@@ -453,28 +454,50 @@ hr {
 
 .icona {
   width: 20%;
-  margin-top: 3%;
+  margin-top: 5%;
   align-items: center;
 }
 
 .icona2 {
   width: 32%;
-  margin-top: 3%;
+  margin-top: 4.5%;
   align-items: center;
+  color: #fff;
 }
 
 .icona3 {
-  width: 50%;
-  margin-top: 5%;
+  width: 55%;
+  margin-top: 4.5%;
+  padding-bottom: 1%;
   align-items: center;
 }
 
 .icona4 {
-  width: 44%;
-  margin-top: 4.5%;
+  width: 45%;
+  margin-top: 5%;
+  padding-bottom: 1%;
   align-items: center;
 }
 
+.icona5 {
+  width: 13%;
+  margin-top: 5%;
+  padding-bottom: 1%;
+  align-items: center;
+}
 .box4 {
+  border-right: none;
+}
+.finale {
+  border-bottom: none;
+  margin-bottom: 2%;
+}
+.testo-mini {
+  text-transform: uppercase;
+  padding-top: 0.5px;
+  font-size: 18px;
+}
+
+.last {
   border-right: none;
 }
