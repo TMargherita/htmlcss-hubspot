@@ -12,7 +12,7 @@ header {
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: bottom;
+  background-position: right bottom;
 }
 
 .header-bottom {
@@ -56,7 +56,6 @@ body {
   margin: auto;
   padding-top: 15px
 }
-
 
 .clearfix::after {
   content:"";
@@ -162,25 +161,27 @@ body {
 
 .banner-text {
   position: absolute;
-  top: 50;
+  top: 40;
   left: 30;
-  transform: translate(30%, 50%);
+  transform: translate(30%, 40%);
 }
 
 .banner-text h1 {
   text-align: left;
   font-weight: 700;
-  font-size: 55px;
+  font-size: 70px;
   color: #33475B;
   margin-bottom: 10px;
+  margin-right: 5%;
 }
 
 .banner-text p {
   text-align: left;
   font-weight: 400;
   color: #33475B;
-  font-size: 20px;
+  font-size: 24px;
   margin-bottom: 20px;
+  margin-right: 5%;
 }
 
 .banner-text button {
@@ -222,15 +223,15 @@ body {
   padding: 20px 0;
 }
 
-.testo-centrato li:first-child {
+.testo-centrato h2 {
   font-weight: 600;
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 
 .testo-centrato li:last-child {
-  font-weight: 500;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
@@ -255,17 +256,18 @@ body {
   width: 80%;
   margin: auto;
   align-items: center;
+  padding-top: 3%;
 }
 
 .colonna1, .colonna2, .colonna3 {
   float: left;
   width: calc(33.33% - 100px/3);
-  margin: 100px 0;
+  margin: auto;
 }
 .box-full {
   width: 100vw;
   background: linear-gradient(to right, #00a4bd 0%, #00bda5 100%);
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 .container-box {
@@ -296,7 +298,7 @@ body {
   color: #fff;
   font-weight: 400;
   font-size: 20px;
-  padding: 25px;
+  padding: 20px;
   width: 80%;
   margin-top: 35px;
 }
@@ -311,7 +313,7 @@ body {
 }
 
 .testo-affiancato h2 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 35px;
   padding: 20px;
   margin-top: 30px;
@@ -319,22 +321,23 @@ body {
 
 .testo-affiancato p {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   padding: 20px;
 }
 
-.testo-affiancato .feature {
+.feature {
+  text-align: left;
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 28px;
+  font-weight: 600;
+  font-size: 20px;
   color: #33475B;
-  padding: 20px;
+  padding: 10px;
 }
 
 hr {
   display: inline-block;
   align: right;
-  width: 50%;
+  width: 60%;
   margin-left: 20px;
 }
 
@@ -342,15 +345,16 @@ hr {
   display: inline-block;
   list-style: none;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   text-align: left;
-  padding: 20px;
-  margin-top: 20px;
+  margin-top: 2%;
+  padding-left: 5px;
 }
 
-.lista-inline .fa-check-circle {
+ .fa-check-circle {
   color:#FE775A;
+  padding:0 15px;
 }
 
 .image-box {
@@ -363,8 +367,7 @@ hr {
 .parte-sopra, .parte-sotto {
   width: 60%;
   text-align: center;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin: 10% 20%;
 }
 
 .parte-sopra li, .parte-sotto li{
@@ -387,7 +390,7 @@ hr {
   font-weight: 400;
   font-size: 26px;
   margin-top: 20px;
-  padding-bottom: 90px;
+  padding-bottom: 10%;
   line-height: 48px;
   border-bottom: 2px solid #33475B;
 }
@@ -417,13 +420,13 @@ hr {
 
 .colonna3 .parte-sopra li img {
   width: 45%;
+  margin: auto;
 }
 
 .contenuto-box-full {
   width: 70%;
   margin: auto;
 }
-
 
 .contenuto-box-full h1 {
   font-weight: 700;
@@ -493,7 +496,7 @@ hr {
 }
 
 .icona5 {
-  width: 13%;
+  width: 15%;
   margin-top: 5%;
   padding-bottom: 1%;
   align-items: center;
@@ -510,7 +513,43 @@ hr {
   padding-top: 0.5px;
   font-size: 18px;
 }
-
 .last {
   border-right: none;
+}
+
+.riga-loghi {
+  width: 70%;
+  margin: auto;
+}
+
+.testo-piccolo {
+  float: left;
+  width: 20%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.loghi {
+  float:left;
+  width: 80%;
+  margin: auto;
+}
+.
+.testo li {
+  display: block;
+  color: #33475B;
+  list-style: none;
+  text-decoration: none;
+  padding: 20px;
+  text-align: left;
+}
+
+.testo li h2 {
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.testo li p {
+  font-weight: 400;
+  font-size: 20px;
 }
