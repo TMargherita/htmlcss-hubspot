@@ -6,7 +6,7 @@
 
 header {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 1000px;
   margin: auto;
   background-image: url("../img/jumbotron.png");
@@ -19,7 +19,7 @@ header {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 120px;
   border-top: 2px solid #374d62;
   border-bottom: 2px solid #374d62;
@@ -32,15 +32,17 @@ body {
 
 .prima-riga {
   width: 100%;
-  border-bottom: 1px solid #374d62;
+  border-bottom: 1px solid #cbd6e2;
   margin: auto;
-  padding: 1% 0;
+  padding: 15px;
+  background-color: #f5f8fa;
 }
 
 .seconda-riga {
   width: 100%;
   margin: auto;
-  padding-top: 1%;
+  padding-top: 10px;
+  background-color: #fff;
 }
 
 .terza-riga {
@@ -56,7 +58,7 @@ body {
 .sottomenu {
   width: 80%;
   margin: auto;
-  padding-top: 15px
+  padding-top: 15px;
 }
 
 .clearfix::after {
@@ -78,6 +80,7 @@ body {
   list-style: none;
   text-decoration: none;
   font-size: 16px;
+  font-weight: 400;
   text-align: left;
   line-height: 30px;
   padding-right: 5px;
@@ -101,12 +104,13 @@ body {
 
 .menu-inline-dx li {
   display: inline-block;
-  color: #ff7a59;
+  color: #33475b;
   list-style: none;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
   text-align: right;
-  margin: 0 15px;
+  padding-right: 15px;
 }
 
 .menu-inline-dx li:first-child {
@@ -119,7 +123,7 @@ body {
   background-color: #fff;
   color: #FE775A;
   font-weight: 300;
-  padding: 15px;
+  padding: 10px 25px;
 }
 
 .btn-orange {
@@ -128,7 +132,7 @@ body {
   background-color:#FE775A;
   color: #fff;
   font-weight: 300;
-  padding: 15px;
+  padding: 11px 25px;
 }
 
 /*header-menu-logo*/
@@ -153,51 +157,58 @@ body {
   text-decoration: none;
   font-size: 16px;
   text-align: right;
-  padding: 0 25px;
+  padding: 0 15px;
   }
+
+.fa-chevron-down {
+  padding-left: 20px;
+}
 
 .banner {
   position: relative;
-  width: 35%;
+  width: 30%;
+  margin-left: 3%;
 }
 
 .banner-text {
   position: absolute;
-  top: 40;
+  top: 35;
   left: 30;
-  transform: translate(30%, 40%);
+  transform: translate(30%, 35%);
 }
 
 .banner-text h1 {
   text-align: left;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 60px;
   color: #33475B;
-  margin-bottom: 10px;
-  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-right: 10%;
 }
 
 .banner-text p {
   text-align: left;
   font-weight: 400;
   color: #33475B;
-  font-size: 24px;
-  margin-bottom: 20px;
-  margin-right: 5%;
+  font-size: 18px;
+  margin-bottom: 8%;
+  margin-right: 28%;
+  line-height: 30px;
 }
 
-.banner-text button {
+.banner-text a {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   padding: 20px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 8%;
 }
 
 .sottotesto {
-  font-weight: 300;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
   color: #33475B;
+  margin-top: 8%;
 }
 
 .corpo {
@@ -241,6 +252,7 @@ body {
   width: 80%;
   margin: auto;
   padding-bottom: 50px;
+  background-color: #fff;
 }
 
 .prima-colonna {
@@ -265,6 +277,7 @@ body {
   float: left;
   width: calc(33.33% - 100px/3);
   margin: auto;
+  background-color: #fff;
 }
 .box-full {
   width: 100vw;
@@ -341,6 +354,7 @@ hr {
   align: right;
   width: 60%;
   margin-left: 20px;
+  vertical-align: middle;
 }
 
 .lista-inline li {
@@ -428,7 +442,7 @@ hr {
 
 .contenuto-box-full h1 {
   font-weight: 700;
-  font-size: 55px;
+  font-size: 45px;
   color: #fff;
   text-align: center;
   padding-top: 4%;
@@ -439,7 +453,7 @@ hr {
   width: 95%;
   margin: auto;
   font-weight: 400px;
-  font-size: 24px;
+  font-size: 18px;
   color: #fff;
   text-align: center;
   padding: 3% 0;
@@ -454,6 +468,10 @@ hr {
   font-size: 20px;
   padding: 30px;
   vertical-align: middle;
+}
+
+.box4 {
+  border-right: none;
 }
 
 .mini-box h2 {
@@ -499,9 +517,7 @@ hr {
   padding-bottom: 1%;
   align-items: center;
 }
-.box4 {
-  border-right: none;
-}
+
 .finale {
   border-bottom: none;
   margin-bottom: 2%;
@@ -561,8 +577,7 @@ hr {
   text-align: right;
 }
 
- .lista-loghi li .icone-loghi {
-  max-width: 50%;
-  margin: auto;
-  vertical-align: baseline;
+ li .icone-loghi {
+  width: 30%;
+  vertical-align: middle;
 }
