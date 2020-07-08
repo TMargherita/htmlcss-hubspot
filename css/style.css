@@ -254,6 +254,7 @@ body {
 .container-colonne {
   width: 80%;
   margin: auto;
+  align-items: center;
 }
 
 .colonna1, .colonna2, .colonna3 {
@@ -265,6 +266,11 @@ body {
   width: 100vw;
   background: linear-gradient(to right, #00a4bd 0%, #00bda5 100%);
   margin-top: 2%;
+}
+
+.container-box {
+  width: 105%;
+  margin: auto;
 }
 
 .box1, .box2, .box3, .box4 {
@@ -413,22 +419,29 @@ hr {
   width: 45%;
 }
 
-.titolo-box-full {
+.contenuto-box-full {
+  width: 70%;
+  margin: auto;
+}
+
+
+.contenuto-box-full h1 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 55px;
   color: #fff;
   text-align: center;
-  padding: 2% 8%;
+  padding-top: 4%;
+  margin-bottom: 1%;
 }
 
 .testo-box-full {
+  width: 95%;
+  margin: auto;
   font-weight: 400px;
   font-size: 24px;
   color: #fff;
   text-align: center;
-  padding: 0 6.5%;
-  margin-bottom: 2%;
-  padding: 0 15%;
+  padding: 3% 0;
 }
 
 .mini-box {
@@ -460,14 +473,14 @@ hr {
 
 .icona2 {
   width: 32%;
-  margin-top: 4.5%;
+  margin-top: 5%;
   align-items: center;
   color: #fff;
 }
 
 .icona3 {
   width: 55%;
-  margin-top: 4.5%;
+  margin-top: 5%;
   padding-bottom: 1%;
   align-items: center;
 }
